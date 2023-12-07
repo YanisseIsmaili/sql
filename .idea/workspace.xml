@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd402310-225c-4433-b379-5b8881b8f472" name="Changes" comment="select-all-column">
-      <change afterPath="$PROJECT_DIR$/select-all-column-alias.sql" afterDir="false" />
-    </list>
+    <list default="true" id="dd402310-225c-4433-b379-5b8881b8f472" name="Changes" comment="create-table" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +49,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="select-all-column" />
-    <option name="LAST_COMMIT_MESSAGE" value="select-all-column" />
+    <MESSAGE value="select-all-column-alias" />
+    <MESSAGE value="create-table" />
+    <option name="LAST_COMMIT_MESSAGE" value="create-table" />
   </component>
 </project>
