@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd402310-225c-4433-b379-5b8881b8f472" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/select-all-column.sql" afterDir="false" />
+    <list default="true" id="dd402310-225c-4433-b379-5b8881b8f472" name="Changes" comment="select-all-column">
+      <change afterPath="$PROJECT_DIR$/select-all-column-alias.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="select-all-column" />
+    <option name="LAST_COMMIT_MESSAGE" value="select-all-column" />
   </component>
 </project>
