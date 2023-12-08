@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd402310-225c-4433-b379-5b8881b8f472" name="Changes" comment="update-genre">
-      <change beforePath="$PROJECT_DIR$/chinook.db" beforeDir="false" afterPath="$PROJECT_DIR$/chinook.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update-genre.sql" beforeDir="false" afterPath="$PROJECT_DIR$/update-genre.sql" afterDir="false" />
-    </list>
+    <list default="true" id="dd402310-225c-4433-b379-5b8881b8f472" name="Changes" comment="update-employee" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +56,7 @@
     <MESSAGE value="insert-genre" />
     <MESSAGE value="insert-employee" />
     <MESSAGE value="update-genre" />
-    <option name="LAST_COMMIT_MESSAGE" value="update-genre" />
+    <MESSAGE value="update-employee" />
+    <option name="LAST_COMMIT_MESSAGE" value="update-employee" />
   </component>
 </project>
