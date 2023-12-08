@@ -1,4 +1,3 @@
--- Assuming a table named 'Employees'
 INSERT INTO Employees
     (LastName, FirstName, Title, ReportsTo, BirthDate, HireDate, Address, City, State, Country, PostalCode, Phone, Fax, Email)
 VALUES
