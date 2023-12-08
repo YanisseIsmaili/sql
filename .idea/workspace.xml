@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd402310-225c-4433-b379-5b8881b8f472" name="Changes" comment="Le grand ramplacement">
-      <change afterPath="$PROJECT_DIR$/select-customer-where.sql" afterDir="false" />
-    </list>
+    <list default="true" id="dd402310-225c-4433-b379-5b8881b8f472" name="Changes" comment="select-customer-where" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +60,7 @@
     <MESSAGE value="update-employee" />
     <MESSAGE value="delete-genre" />
     <MESSAGE value="Le grand ramplacement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Le grand ramplacement" />
+    <MESSAGE value="select-customer-where" />
+    <option name="LAST_COMMIT_MESSAGE" value="select-customer-where" />
   </component>
 </project>
