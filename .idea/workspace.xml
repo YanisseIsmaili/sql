@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd402310-225c-4433-b379-5b8881b8f472" name="Changes" comment="add column">
-      <change afterPath="$PROJECT_DIR$/insert-genre.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/391d8169-c1c7-44df-b18b-9885bc2743fd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/391d8169-c1c7-44df-b18b-9885bc2743fd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4bf8ea30-850d-4b61-a118-9ab74ba05078.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4bf8ea30-850d-4b61-a118-9ab74ba05078/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dd402310-225c-4433-b379-5b8881b8f472" name="Changes" comment="insert-genre">
+      <change afterPath="$PROJECT_DIR$/insert-employee.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinook.db" beforeDir="false" afterPath="$PROJECT_DIR$/chinook.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +56,7 @@
     <MESSAGE value="create-table" />
     <MESSAGE value="rename-table" />
     <MESSAGE value="add column" />
-    <option name="LAST_COMMIT_MESSAGE" value="add column" />
+    <MESSAGE value="insert-genre" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert-genre" />
   </component>
 </project>
