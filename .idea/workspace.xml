@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd402310-225c-4433-b379-5b8881b8f472" name="Changes" comment="selec">
-      <change beforePath="$PROJECT_DIR$/select-customers-where-and.sql" beforeDir="false" afterPath="$PROJECT_DIR$/select-customers-where-and.sql" afterDir="false" />
+    <list default="true" id="dd402310-225c-4433-b379-5b8881b8f472" name="Changes" comment="selec1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +65,7 @@
     <MESSAGE value="select-customer-where" />
     <MESSAGE value="select" />
     <MESSAGE value="selec" />
-    <option name="LAST_COMMIT_MESSAGE" value="selec" />
+    <MESSAGE value="selec1" />
+    <option name="LAST_COMMIT_MESSAGE" value="selec1" />
   </component>
 </project>
