@@ -26,5 +26,36 @@ ifnull((SELECT md.Name FROM media_types md
 	INNER JOIN customers c ON c.CustomerId = i.CustomerId
 	WHERE c.SupportRepId = e.EmployeeId
 	GROUP BY md.MediaTypeId ORDER BY count(*) DESC LIMIT 1),'-') AS 'Most Media Type Selled',
-	
+		
+CASE (SELECT ROUND(CAST(count(*) AS FLOAT) * 100 / (
+		SELECT Sell
+		FROM (
+			SELECT count(*) AS Sell,
+			rank() OVER ( ORDER BY sum(i.Total) DESC) AS seller_rank
+			FROM invoices i
+			JOIN customers c ON c.CustomerId = i.CustomerId
+			JOIN employees e ON e.EmployeeId = c.SupportRepId
+			GROUP BY e.EmployeeId)
+			WHERE seller_rank = 1),2) 
+		FROM invoices i
+		INNER JOIN customers c ON c.CustomerId = i.CustomerId 
+		WHERE c.SupportRepId = e.EmployeeId
+	)
+	WHEN 100.0 THEN '-'
+	WHEN 0.0 THEN '-'
+	ELSE (SELECT ROUND(CAST(count(*) AS FLOAT) * 100 / (
+		SELECT Sell
+		FROM (
+			SELECT count(*) AS Sell,
+			rank() OVER ( ORDER BY sum(i.Total) DESC) AS seller_rank
+			FROM invoices i
+			JOIN customers c ON c.CustomerId = i.CustomerId
+			JOIN employees e ON e.EmployeeId = c.SupportRepId
+			GROUP BY e.EmployeeId)
+			WHERE seller_rank = 1),2) 
+		FROM invoices i
+		INNER JOIN customers c ON c.CustomerId = i.CustomerId 
+		WHERE c.SupportRepId = e.EmployeeId)
+	END
+	AS 'Percentage sales compared best seller'
 	
