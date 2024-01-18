@@ -3,3 +3,4 @@ SELECT p.PlaylistId, p.Name,
 FROM playlists p
 EFT JOIN playlist_track pt ON p.PlaylistId = pt.PlaylistId
 AND IFNULL(pt.TrackId,2) IN (
+        SELECT TrackId
