@@ -58,4 +58,8 @@ CASE (SELECT ROUND(CAST(count(*) AS FLOAT) * 100 / (
 		WHERE c.SupportRepId = e.EmployeeId)
 	END
 	AS 'Percentage sales compared best seller'
+    
+FROM employees e
+
+GROUP BY e.EmployeeId
 	
